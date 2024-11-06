@@ -1,0 +1,68 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100vh;
+	font-family: "Segoe Ui", sans-serif, fantasy;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	border-radius: 10px;
+	width: 20%;
+	border: 1px solid #000000;
+}
+
+.container .output {
+	width: 63%;
+	margin: 1em auto;
+}
+
+.container .output input {
+	padding: 10px 0;
+	cursor: default;
+}
+
+.container .output input:focus {
+	border: 1px solid blue;
+}
+
+.container .item1 {
+	margin: 1em 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.container .item1 button {
+	width: 4em;
+	height: 2.5em;
+}
+
+.container .item2, .item3, .item4, .item5 {
+	margin: 1em 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1em;
+}
+
+.container button {
+	border-radius: 10px;
+	border: none;
+	width: 3em;
+	height: 2.5em;
+	transition: .3s ease-in-out;
+}
+
+.container button:active {
+	transform: scale(.8);
+}
+
+.container .item1 button:nth-child(2) {
+	background-color: orange;
+}
