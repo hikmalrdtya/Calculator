@@ -9,12 +9,13 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	background-color:  #ededed;
 }
 
 .container {
 	border-radius: 10px;
 	width: 20%;
-	border: 1px solid #000000;
+	border: 1px solid #242529;
 }
 
 .container .output {
@@ -57,12 +58,12 @@ body {
 	width: 3em;
 	height: 2.5em;
 	transition: .3s ease-in-out;
+	background-color: #242529;
+	color: #2489E5;
+	box-shadow: 0px 8px 0px black;
 }
 
 .container button:active {
-	transform: scale(.8);
-}
-
-.container .item1 button:nth-child(2) {
-	background-color: orange;
+	box-shadow: 0px 4px 0px black;
+	transform: translateY(5px);
 }
